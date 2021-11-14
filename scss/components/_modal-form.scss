@@ -104,6 +104,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -136,25 +137,4 @@
 
 .accepr-link {
   color: var(--accent-color);
-}
-
-.modal-button {
-  display: block;
-  min-width: 200px;
-  height: 50px;
-  border: none;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  padding: 10px 55px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--third-text-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

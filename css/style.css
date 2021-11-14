@@ -769,7 +769,7 @@ body {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-} */
+} */ */
 
 /* .modal {
   position: absolute;
@@ -814,7 +814,7 @@ body {
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: var(--accent-color);
-} */
+}
 
 /* .form-title {
   margin-bottom: 12px;

@@ -9,12 +9,15 @@
 @import "./components/container";
 @import "./components/section";
 @import "./components/logo";
+@import "./components/btn";
 @import "./components/social-item";
+@import "./components/backdrop";
 @import "./components/modal";
 @import "./components/modal-form";
 
 //LAYOUT
 @import "./layout/header";
+@import "./layout/nav";
 @import "./layout/hero";
 @import "./layout/benefits";
 @import "./layout/services";
