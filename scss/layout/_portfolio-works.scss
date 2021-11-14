@@ -23,16 +23,12 @@
   }
 }
 
-.card__preview {
-  display: block;
-}
-
 .card__img {
   position: relative;
   overflow: hidden;
 }
 
-.card__description {
+.card__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,8 +43,8 @@
   transform: translate(0, 100%);
   transition: transform var(--transition);
 
-  .card__preview:hover &,
-  .card__preview:focus & {
+  .card:hover &,
+  .card:focus & {
     transform: translate(0, 0);
   }
 }
@@ -68,7 +64,7 @@
   color: var(--primary-text-color);
 }
 
-.card__text {
+.card__subtitle {
   @include fontmin(16px, 1.87, 0.03em);
 
   color: var(--second-text-color);
