@@ -22,11 +22,8 @@
 
   width: 696px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include fontmax(900, 44px, 1.36, 0.06em);
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--third-text-color);

@@ -27,10 +27,7 @@
 .team__name {
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include fontmax(500, 16px, 1.19, 0.03em);
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -38,9 +35,7 @@
 .team__position {
   margin-bottom: 16px;
 
-  font-size: 16px;
-  line-height: 1.19x;
-  letter-spacing: 0.03em;
+  @include fontmin(16px, 1.19, 0.03em);
   text-align: center;
 
   color: var(--second-text-color);

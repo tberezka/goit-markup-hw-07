@@ -14,8 +14,8 @@
 }
 
 .benefits__img {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: center;
 
   width: 100%;
@@ -29,18 +29,14 @@
 .benefits__title {
   margin-bottom: 10px;
 
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fontmin(14px, 1.14, 0.03em);
   text-transform: uppercase;
 
   color: var(--primary-text-color);
 }
 
 .benefits__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fontmin(14px, 1.71, 0.03em);
 
   color: var(--second-text-color);
 }
