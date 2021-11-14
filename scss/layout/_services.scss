@@ -1,25 +1,27 @@
 .services {
-  display: flex;
-  margin-left: -30px;
-}
-.section-services {
   background-color: var(--primary-background-color);
 }
 
-.services .services-items {
+.services__list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.services__list .services__item {
   flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
 }
 
-.services-items {
+.services__item {
   position: relative;
 }
 
-.services-text {
+.services__text {
   position: absolute;
-  bottom: 0;
   display: block;
+
   width: 100%;
+  bottom: 0;
   padding-top: 27px;
   padding-bottom: 27px;
   background-color: rgba(47, 48, 58, 0.8);
