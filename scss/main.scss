@@ -11,10 +11,12 @@
 @import "./components/section";
 @import "./components/logo";
 @import "./components/btn";
-@import "./components/social-item";
+@import "./components/social-list";
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/modal-form";
+@import "./components/filter";
+@import "./components/card";
 
 //LAYOUT
 @import "./layout/header";
@@ -25,5 +27,6 @@
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/portfolio-filter";
-@import "./layout/portfolio-works";
+
+// PAGES
+@import "./pages/portfolio";
